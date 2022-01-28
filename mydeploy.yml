@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myjavaapp-deploy
-  label:
+  labels:
     app: myjavaapp
 spec:
   replicas: 2
